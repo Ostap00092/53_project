@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding:10px;
+    height:100vh;
+    width:100%;
+    background-color: #B8CFF0;
+    overflow: hidden;
+}
+#messages{
+    position:relative;
+    height:89vh;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #fff;
+}
+form{
+    position:relative;
+    padding:15px;
+    height:11vh;
+    width: 100%;
+    background-color: whitesmoke;
+    display:flex;
+}
+#message{
+    height: 80%;
+    width: 80%;
+    text-align: left;
+    outline: none;
+    padding: 5px 10px;
+    font-size: 17px;;
+    flex:2;
+}
+input[type="submit"]{
+    display:block;
+    height:80%;
+    width:20%;
+}
+.msg{
+    margin: 10px;
+    background:#dcf8c6;
+    padding:5px 10px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    width:fit-content;
+}
+.msg p{
+    margin: 0;
+    font-weight: bold;
+}
+.msg span {
+    font-size: 0.7em;
+    margin-left: 15px;
+}
