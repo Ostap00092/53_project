@@ -1,8 +1,8 @@
-*{
+* {
     box-sizing: border-box;
     text-decoration: none;
 }
-body{
+body {
     height:100vh;
     width: 100%;
     padding: 0;
@@ -15,41 +15,39 @@ body{
     font-family: sans-serif;
     background-color: #F2F4F4;
 }
-.wrapper{
+.wrapper {
     position:relative;
 }
-.img{
+.img {
     height:150px;
     width:auto;
     margin-bottom: 10px;
 }
-form{
+form {
+    position: relative;
     height:auto;
     width:auto;
-    border-radius: 10px;
     padding:20px 30px;
-    box-shadow: 0 0 1px 1px grey;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: #ffffff;
 }
 input[type="text"], input[type="password"] {
     text-align:center;
     width:250px;
     height:40px;
-    background-color: #004156;
-    border-radius:8px;
     border:solid #2F6475 1px;
     outline:none;
-    color:white;
-    font-size: 16px;
+    color:#2F6475;
+    font-size: 14px;
     font-weight: 100;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 input[type="text"]::placeholder{
-    color:white;
+    color:#2F6475;
 }
 input[type="password"]::placeholder{
     color:#004156;
@@ -72,15 +70,17 @@ input[type="submit"], .reg{
     width:auto;
     padding:10px 22px;
     height:40px;
+    border: none;
     background-color: #004156;
-    border-radius:8px;
-    border:solid #2F6475 1px;
     outline:none;
-    color:white;
-    font-size: 16px;
+    color:#ffffff;
+    font-size: 14px;
     font-weight: 100;
     margin-top: 20px;
     cursor: pointer;
+}
+.liginIn {
+    width: 250px;
 }
 .reg{
     color:#004156;
@@ -88,5 +88,9 @@ input[type="submit"], .reg{
     margin-left: 14px;
 }
 .zab{
-    color:black;
+    color:#004156;
+    font-size: 12px;
+}
+.bg3 {
+    background-color: #004156;
 }

@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+}
+a, h1, p, li {
+    font-family: 'Cuprum', sans-serif;
+    text-decoration: none;
+}
+body {
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.window {
+    width: 100%;
+    min-height: 200px;
+    height: 100vh;
+}
+header {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.navbar {
+    min-height: 100px;
+    width: 100%;
+    height: 12.6742712%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* ====LOGO==== */
+    .log {
+        margin-right: 28.75%;
+        max-width: 226px;
+        min-width: 100px;
+        width: 6.25%;
+        height: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logImg {
+        width: 100%;
+        height: 100%;
+    }
+/* ====EXAMPLE MENU GORIZ.==== */
+    .menuG {
+        padding: 0;
+        list-style-type: none;
+        text-align: center;
+        display: block;
+    }
+    .menuG li {
+        padding: 0 25px 0 25px;
+        display: inline-flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+    .menuG a {
+        color: #054356;
+        font-size: 19px;
+        text-decoration: none;
+        display: inline-block;
+        width: auto;
+        text-transform: uppercase;
+    }
+    .menuG a:hover {
+        color: #cfcfcf;
+        transition: 0.15s;
+    }
+/* ====LOGIN IN==== */
+    .loginIn {
+        height: 19px;
+        width: auto;
+        margin-left: 15%;
+        padding: 5px 15px 5px 15px;
+        background-color: #054356;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .loginIn a{
+        color: #ffffff;
+        font-size: 19px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+/* ====OSNOVA OR MAIN==== */
+.main {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: #054356;
+}
+.mainHeaderText {
+    width: 33%;
+    height: 100%;
+    background-color: #054356;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    float: left;
+}
+.vertical {
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    width: 300px;
+}
+.vertical h1 {
+    color: #ffffff;
+    font-size: 32.06px;
+    margin-bottom: 7%;
+}
+.vertical li {
+    color: #ffffff;
+    font-size: 24px;
+    list-style-type: none;
+    padding-left: 15px;
+}
+.vertical button {
+    margin-top: 30%;
+    background-color: #4fccf1;
+    border: none;
+    width: 210px;
+    height: 65px;
+    font-size: 21px;
+    color: #ffffff;
+}
+.vertical button a {
+    color: #ffffff;
+}
+#mainHeaderImg {
+    width: 67%;
+    height: 100%;
+    float: left;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+/* ====imgEffect==== */
+.TransparencyBlock {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #054356a1;
+    z-index: 4;
+}
+.imgHeader {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+/* ====ANIMATION==== */
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    z-index: 2;
+
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+.showing {
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    opacity: 1;
+    z-index: 3;
+}
+
+.TextAnimationCentre {
+    position: absolute;
+    width: 40%;
+    z-index: 5;
+}
+.TextAnimationCentre h1 {
+    color: #ffffff;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+.TextAnimationCentre p {
+    color: #ffffff;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+/* ===FOOTER=== */
+.footer {
+    background-color: #03232c;
+    height: 10vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer p {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 14px;
+}

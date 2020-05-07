@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles2.css">
     <link rel="icon" a href="images/logo.png">
-    <title>Регистрация</title>
+    <title>INT53 - Регистрация</title>
 </head>
 <body>
     <div class="img">
@@ -13,16 +13,14 @@
     </div>
     <form action="uploads/reg.php" method="POST">
         <input type="text" name="login" placeholder="Логин">
-        <input type="text" name="name" placeholder="Имя">
-        <input type="text" name="lastname" placeholder="Фамилия">
+        <input type="text" name="name" placeholder="Введите имя">
+        <input type="text" name="lastname" placeholder="Введите фамилия">
+        <input type="password" name="password" placeholder="Пароль">
         <div class="btns">
             <input type="radio" name="role" value="1">Учитель
             <input type="radio" name="role" value="2">Ученик
         </div>
-        
-        <input type="password" name="password" placeholder="Пароль">
-        <a class="zab" href="">Забыли пароль?</a>
-        <input type="submit" value="Регистрация">
+        <input type="submit" value="Регистрация" class="loginIn">
     </form>
 </body>
 </html>
